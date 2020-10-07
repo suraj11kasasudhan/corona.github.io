@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Tracker</title>
+    <link rel="stylesheet" href="corona.css">
+    <script src="corona.js"></script>
+    
+</head>
+<body>
+    <h1 class="headlines"> Covid-Tracker</h1>
+    
+    <div class="container">
+        <div class="inputd">  
+            <label>Choose Country:</label>
+            <select name="con" id="country">
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Africa">Africa</option>
+                <option value="srilanka">srilanka</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Newzealand">Newzealand</option>
+                <option value="Spain">Spain</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Australia">Australia</option>
+
+                
+              </select>
+            <button onclick="again()">Refresh</button>
+            <button onclick="countryselect()">Get Data</button>
+
+
+
+
+        </div>
+
+        <div class="output">
+            <h1 class="o">Date :<span id="date"></span></h1>
+            <h1 class="o">Total :<span id="total"></span></h1>
+            <h1 class="o">NewConfirmed :<span id="caser"></span></h1>
+            <h1 class="o">NewDeaths :<span id="death"></span></h1>
+            <h1 class="o">NewRecovered :<span id="recover"></span></h1>
+
+
+
+            
+        </div>
+ 
+    
+    
+    </div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
